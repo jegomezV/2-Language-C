@@ -152,3 +152,9 @@ int main (){
 }
 
 <img src="/All_C/operadores.jpeg">
+
+**LIBRERIA MATH.H:**
+Nos permite realizar operaciones tipo potencia
+x = pow (x,y);
+
+**GRAFICO:**

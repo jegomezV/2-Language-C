@@ -1,17 +1,8 @@
-//Operaciones con variables y macros 
 #include <stdio.h>
-#define PI 3.1416
-
+#include <math.h> 
 int main (){
-    int y;
-    float x = PI;
-
-    printf("Introduce un valor para y: ");
-    scanf("%i",&y);
-    printf("El valor de y es:\n %i. \n",y);
-
-    x = x * y;
-    printf ("El nuevo valor de x es: %f.\n\n",x);
-
+    int x = 10, y = 2;
+    x = pow (y,x);
+    printf("El valor de y elevado a x es: %i. \n", x);
     return 0;
-}
+    }
