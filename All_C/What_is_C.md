@@ -93,4 +93,8 @@ int main (){
     printf ("El valor de X es: %f. \n",x);
     return 0;
 }
+
+.
+
+
 <img src="/All_C/macro.jepg">
