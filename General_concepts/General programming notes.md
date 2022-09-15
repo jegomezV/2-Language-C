@@ -35,7 +35,11 @@ int main(){
     return 0;
 }
 
-
 (Un entero es un numero sin decimales (int))
+
+.
 <img src="/General_concepts/c.jpeg">
+
+
+
 
