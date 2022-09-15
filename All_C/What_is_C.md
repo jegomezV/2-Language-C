@@ -94,7 +94,5 @@ int main (){
     return 0;
 }
 
-.
 
-
-<img src="/All_C/macro.jepg">
+<img src="/All_C/macro.jpeg">
