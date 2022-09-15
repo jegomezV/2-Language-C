@@ -170,4 +170,4 @@ int main (){
     return 0;
 }
 
-<img src="/All_C/potencia.jpeg">
+<img src="/All_C/potenia.jpeg">
