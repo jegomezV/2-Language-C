@@ -157,4 +157,17 @@ int main (){
 Nos permite realizar operaciones tipo potencia
 x = pow (x,y);
 
+**AL COMPILAR HAY QUE USAR EL ARGUMENTO -lm, QUEDARIA ASI EL COMANDO gcc ((nombre de archivo)) -lm
+
 **GRAFICO:**
+
+#include <stdio.h>
+#include <math.h> 
+int main (){
+    int x = 10, y = 2;
+    x = pow(y,x);
+    printf("El valor de y elevado a x es: %i. \n", x);
+    return 0;
+}
+
+<img src="/All_C/potencia.jpeg">
