@@ -96,3 +96,30 @@ int main (){
 
 
 <img src="/All_C/macro.jpeg">
+
+**Funcion de asignacion de valores: "scanf":**
+En este proceso dejamos la variable sin asignacion de valor ya que el US se lo va a dar por medio de la funcion "scanf"
+procedemos a declarar la funcion de esta manera:
+
+scanf("%i",&y);
+Scanf: funcion para solicitud de un valor. 
+Luego procedemos con el argumento % para definir que viene un proceso funcional.
+Luego el tipo de dato a recibir, en este caso es integer.
+luego con el ampersand definimos un cubiculo de memoria en el cual el dato recibido va a ser guardado, como en este ejemplo la variable "y".
+
+**Grafico:**
+//Operaciones con variables y macros 
+#include <stdio.h>
+#define PI 3.1416
+
+int main (){
+    int y;
+    float x = PI;
+    printf("Introduce el valor de y: ");
+    scanf("%i",&y);
+    printf("El valor de y es: %i",y);
+
+    return 0;
+}
+
+<img src="/All_C/scanf.jpeg">
