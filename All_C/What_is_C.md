@@ -58,10 +58,10 @@ int main(){    ((En el int declaramos la variable de tipo de dato "entero" segui
     printf ("Hola mundo.");   ((printf es la funcion, la orden que le hacemos al programa en lenguaje C, para que nos imprima por pantalla lo que le ordenamos))
 }
 
-Compilar: Es hacer que el codigo que escribimos sea traducido para la computadora en binario y asi ella lo entienda
+**COMPILAR:** Es hacer que el codigo que escribimos sea traducido para la computadora en binario y asi ella lo entienda
 Salto de linea: para realizar un salto de linea se utiliza el siguiente comando “\n”
 
-NOTA:
+**NOTA:**
 Para declarar distintas variables en una funcion seria de esta forma:
 
 printf (“Valor de x: %i, n\Valor de y: %f. \n”,x,y);
@@ -80,7 +80,7 @@ int main(){
     return 0;
 }
 
-MACROS
+**MACROS**
 Se define: #define
 Ejemplo: #define PI ((luego va el valor a asignar)) 3.1416
 
@@ -97,7 +97,7 @@ int main (){
 
 <img src="/All_C/macro.jpeg">
 
-**Funcion de asignacion de valores: "scanf":**
+**FUNCION DE ASIGNACION DE VALORES: "SCANF":**
 En este proceso dejamos la variable sin asignacion de valor ya que el US se lo va a dar por medio de la funcion "scanf"
 procedemos a declarar la funcion de esta manera:
 
@@ -107,7 +107,7 @@ Luego procedemos con el argumento % para definir que viene un proceso funcional.
 Luego el tipo de dato a recibir, en este caso es integer.
 luego con el ampersand definimos un cubiculo de memoria en el cual el dato recibido va a ser guardado, como en este ejemplo la variable "y".
 
-**Grafico:**
+**GRAFICO:**
 //Operaciones con variables y macros 
 #include <stdio.h>
 #define PI 3.1416
@@ -123,3 +123,32 @@ int main (){
 }
 
 <img src="/All_C/scanf.jpeg">
+
+**OPERACIONES CON VARIABLES:**
+Realizaremos esta operacion: x * y = a... y le asignaremos ese valor ((resultado)) a la var x
+
+**Ejemplo:**
+ x = x * y;
+Primero se ejecuta la operacion de la derecha que seria x * y, y luego asignaria el resultado a x ya que lo estamos indicando asi con el "x =".
+
+**GRAFICO**
+
+//Operaciones con variables y macros 
+#include <stdio.h>
+#define PI 3.1416
+
+int main (){
+    int y;
+    float x = PI;
+
+    printf("Introduce un valor para y: ");
+    scanf("%i",&y);
+    printf("El valor de y es:\n %i. \n",y);
+
+    x = x * y;
+    printf ("El nuevo valor de x es: %f.\n\n",x);
+
+    return 0;
+}
+
+<img src="/All_C/operadores.jpeg">
