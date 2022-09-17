@@ -177,3 +177,6 @@ int main (){
  En este proceso veremos que tenemos un algoritmo para  darle el valor de x a y y viceversa, al ejecutar este algoritmo se mezclaran los r3esultados de manera erronea:
 
  <img src="/All_C/burbuja.jpeg">
+
+ Nos refleja este resultado:
+  <img src="/All_C/resultado.jpeg">
