@@ -201,3 +201,18 @@ if (x==4)  ((Para realizar una comparacion toca agregar los dos signos de igual,
 
 <img src="/All_C/resultado2.jpeg">
 
+Hay varios tipos de operadores de comparacion:
+
+<img src="/All_C/resultado3.jpeg">
+
+Operador <: Devuelve true si el primer valor es menor que el segundo.
+
+Operador <=: Devuelve true si el primer valor es menor o igual que el segundo.
+
+Operador >: Devuelve true si el primer valor es mayor que el segundo.
+
+Operador >=: Devuelve true si el primer valor es mayor o igual que el segundo.
+
+Operador =: Devuelve true si los dos valores son iguales.
+
+Operador <>: Devuelve true si los dos valores no son iguales.
