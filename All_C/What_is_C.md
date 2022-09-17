@@ -410,3 +410,63 @@ IGUALDAD = =.
 
 DESIGUALDAD = <>.
 
+**ESTRUCTURAS ITERATIVAS (bucles):**
+Es la funcion que repite un numero de veces una parte del codigo. un numero de veces que nosotros controlaremos con una condicion.
+**-Hay 3 tipos de bucles:**
+
+*for - Para: Hace recorridos en diferentes operaciones de acuerdo a una cantidad de iteraciones especificadas.
+
+*while - Mientras: 
+
+*do while:
+
+
+**Realizaremos un algoritmo que solicite dos numeros y luego muestre en pantalla todos los numeros comprendidos entre esos dos numeros CON EL BUCLE FOR**
+
+**GRAFICO:**
+
+#include <stdio.h>
+int main (){
+    int x, y, i; //la i es para definir las iteraciones del For
+    
+        printf("Introduzca un numero:\n");
+            scanf("%i",&x);
+
+        printf("Introduzca un numero mayor que el anterior:\n");
+            scanf("%i",&y);
+
+
+for(i = x + 1 ; i < y ; i++)//La primer funcion se realiza para indicar la cantidad de iteraciones del For, hay que dejar un punto y coma para luego poner la condicion 
+ {
+    printf("%i,",i);
+ }
+ printf ("\n");
+}
+
+**Realizaremos un algoritmo que solicite dos numeros y luego muestre en pantalla todos los numeros comprendidos entre esos dos numeros CON EL BUCLE WHILE**
+
+**GRAFICO:**
+
+#include <stdio.h>
+int main (){
+    int x, y, i; //la i es para definir las iteraciones del For
+    
+        printf("Introduzca un numero:\n");
+            scanf("%i",&x);
+
+        printf("Introduzca un numero mayor que el anterior:\n");
+            scanf("%i",&y);
+
+    i = x + 1;
+    while(i < y){ 
+
+    printf("%i,",i);
+
+    i++;
+    
+    }
+ }
+
+
+
+ <img src="/All_C/resultado8.jpeg">
