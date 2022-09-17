@@ -244,3 +244,73 @@ int main (){
 
 if: si ((pasa esto y se cumple la condicion el proceso continua))
 else: si no se cumple la condicion ((pasa este otro proceso))
+
+**ALGORITMO DEMOSTRACION MAS ESTRUCTURAS SELECTIVAS NUMEROS PARES E IMPARES**
+
+#include <stdio.h>
+int main (){
+    int x,y;
+    
+        printf("Introduzca un numero:\n");
+    
+        scanf("%i",&x);
+
+            y = x % 2;
+            if(y==0){
+                printf("El numero %i es par.\n",x);
+            }
+            else {
+                printf ("El numero %i es impar.\n",x);
+            }
+
+        return 0;
+}
+
+**Aqui:**  if(y==0)
+
+Definimos que si el resultado es igual a 0 es par porque termina en 0.
+
+**Estructuras selectivas anidadas**
+Esto significa estructuras dentro de otras estructuras
+
+**GRAFICO:**
+
+Tenemos un algoritmo en el que el susuario agrega 3 numeros y se le indica cual es el mayor
+
+**EJEMPLO:**
+
+#include <stdio.h>
+int main (){
+    int x,y,z,max,min;
+    
+        printf("Introduzca el valor para x:\n");
+        scanf("%i",&x);
+
+        printf("Introduzca el valor para y:\n");
+        scanf("%i",&y);
+
+        printf("Introduzca el valor para z:\n");
+        scanf("%i",&z);
+
+            if(x > y){
+                if (x > z){
+                    max = x;
+                    }
+                        else {
+                            max = z;
+                        }
+            }
+            else{
+                if(y > z)
+                max =y;
+                else{
+                    max = z;
+                }
+                }
+
+        printf ("El mayor de los tres numeros es: %i",max);
+        return 0;
+}
+
+
+<img src="/All_C/resultado4.jpeg">

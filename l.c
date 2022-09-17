@@ -1,19 +1,32 @@
 #include <stdio.h>
 int main (){
-    int i,aux;
-    i = 10;
+    int x,y,z,max,min;
     
-        printf("Ingrese el numero el cual crea sea el valor de la variable i:\n");
-    
-        scanf("%i",&aux);
+        printf("Introduzca el valor para x:\n");
+        scanf("%i",&x);
 
-        if (i == aux)
-    {
-        printf("El valor coincidio!!\n");
-        }
-        else {
-        printf("El valor era 10 \n");
-        }
-    
+        printf("Introduzca el valor para y:\n");
+        scanf("%i",&y);
+
+        printf("Introduzca el valor para z:\n");
+        scanf("%i",&z);
+
+            if(x > y){
+                if (x > z){
+                    max = x;
+                    }
+                        else {
+                            max = z;
+                        }
+            }
+            else{
+                if(y > z)
+                max =y;
+                else{
+                    max = z;
+                }
+                }
+
+        printf ("El mayor de los tres numeros es: %i",max);
         return 0;
 }
