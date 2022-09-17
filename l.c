@@ -1,17 +1,34 @@
 #include <stdio.h>
 int main (){
-    int x;
+    int h, min, seg;
     
-        printf("Introduzca un numero\n");
-        scanf("%i",&x);
+        printf("Introduzca valor horas\n");
+            scanf("%i",&h);
 
-   if(x >= 1 && x <= 10){
- 
-   printf ("El numero %i esta entre 1 y 10. \n",x);
+        printf ("introduce valor minutos:\n");
+            scanf("%i",&min);
+
+    
+        printf ("introduce valor segundos:\n");
+            scanf("%i",&seg);
+
+if (h < 24 && min <= 59 && seg <= 59){
+    seg += 1;
+
+if(seg == 60){
+    min += 1;
+    seg = 0;
+}
+
+if(min == 60){
+    h += 1;
+    min = 0;
+}
+ printf("La hora es: %i:%i:%i.\n", h, min, seg);
 
 }
 else {
-        printf ("El numero de %i NO esta entre 1 y 10. \n",x);
+    printf("La hora introducida no es correcta. \n");
 }
 
         
