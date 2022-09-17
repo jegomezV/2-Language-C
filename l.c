@@ -1,12 +1,19 @@
 #include <stdio.h>
 int main (){
-    int i;
+    int i,aux;
     i = 10;
-    while (i < 15)
+    
+        printf("Ingrese el numero el cual crea sea el valor de la variable i:\n");
+    
+        scanf("%i",&aux);
+
+        if (i == aux)
     {
-        printf("Penelope\n"); 
-        i++;
+        printf("El valor coincidio!!\n");
+        }
+        else {
+        printf("El valor era 10 \n");
         }
     
-    return 0;
+        return 0;
 }

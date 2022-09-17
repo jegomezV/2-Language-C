@@ -197,6 +197,9 @@ Definimos una condicion con un "if", en este caso indicamos ((Si x es igual a 4 
 
 if (x==4)  ((Para realizar una comparacion toca agregar los dos signos de igual, de lo contrario con 1 seria una asignacion))
 
+**NOTA:**Todo lo que este dentro de los corchetes se ejecutara.
+
+
 **GRAFICO**
 
 <img src="/All_C/resultado2.jpeg">
@@ -213,6 +216,31 @@ Operador >: Devuelve true si el primer valor es mayor que el segundo.
 
 Operador >=: Devuelve true si el primer valor es mayor o igual que el segundo.
 
-Operador =: Devuelve true si los dos valores son iguales.
+Operador ==: Devuelve true si los dos valores son iguales.
 
 Operador <>: Devuelve true si los dos valores no son iguales.
+
+**GRAFICO EJERCICIO:**
+
+#include <stdio.h>
+int main (){
+    int i,aux;
+    i = 10;
+    
+        printf("Ingrese el numero el cual crea sea el valor de la variable i:\n");
+    
+        scanf("%i",&aux);
+
+        if (i == aux)
+    {
+        printf("El valor coincidio!!\n");
+        }
+        else {
+        printf("El valor era 10 \n");
+        }
+    
+        return 0;
+}
+
+if: si ((pasa esto y se cumple la condicion el proceso continua))
+else: si no se cumple la condicion ((pasa este otro proceso))
