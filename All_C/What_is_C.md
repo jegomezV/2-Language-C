@@ -178,10 +178,26 @@ int main (){
 
  <img src="/All_C/burbuja.jpeg">
 
+ .
+
  Nos refleja este resultado:
+
+ .
   <img src="/All_C/resultado.jpeg">
+
+  .
 
   Para realizar correctamente este proceso debemos realizar este algoritmo con una variable auxiliar:
 
-   <img src="/All_C/resultado1.jpeg">
+   <img src="/All_C/resultado1.jpeg">.
+
+
+**ESTRUCTURAS SELECTIVAS**
+Definimos una condicion con un "if", en este caso indicamos ((Si x es igual a 4 se ejecuta el proceso)):
+
+if (x==4)  ((Para realizar una comparacion toca agregar los dos signos de igual, de lo contrario con 1 seria una asignacion))
+
+**GRAFICO**
+
+<img src="/All_C/resultado2.jpeg">
 
