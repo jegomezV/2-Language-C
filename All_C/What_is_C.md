@@ -477,11 +477,12 @@ int main (){
 
  #include <stdio.h>
 int main (){
+
     int i;
     float suma; //Se declara de tipo flotante ya que el numero va a sobre pasar la cantidad de bits permitidos por el int.
     suma = 0;
     
-    //En el buble for primero realizamos la inicializacion, 
+    //En el bucle for primero realizamos la inicializacion, 
     for(i = 2 ; i <= 2000 ; i += 2){
         suma += i;
     }
@@ -492,4 +493,4 @@ int main (){
     }
 
 
-    <img src="/All_C/resultado9.jpeg">
+ <img src="/All_C/resultado9.jpeg">
