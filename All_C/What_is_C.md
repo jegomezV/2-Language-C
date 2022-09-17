@@ -398,14 +398,15 @@ else {
 
 
 
-
-
-
-
-
 **OPERADORES RELACIONALES LOGICOS:**
+
 O = ||.
+
 Y = &&.
-NEGACION = !.  
+
+NEGACION = !.
+
 IGUALDAD = =.
+
 DESIGUALDAD = <>.
+
