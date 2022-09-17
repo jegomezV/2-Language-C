@@ -408,7 +408,7 @@ NEGACION = !.
 
 IGUALDAD = =.
 
-DESIGUALDAD = <>.
+DESIGUALDAD = <>. !=.
 
 **ESTRUCTURAS ITERATIVAS (bucles):**
 Es la funcion que repite un numero de veces una parte del codigo. un numero de veces que nosotros controlaremos con una condicion.
@@ -419,7 +419,7 @@ Es la funcion que repite un numero de veces una parte del codigo. un numero de v
 
 *while - Mientras: 
 
-*do while:
+*do while: Siempre se ejecuta al menos una vez
 
 
 **Realizaremos un algoritmo que solicite dos numeros y luego muestre en pantalla todos los numeros comprendidos entre esos dos numeros CON EL BUCLE FOR**
@@ -494,3 +494,69 @@ int main (){
 
 
  <img src="/All_C/resultado9.jpeg">
+
+
+**ALGORITMO CICLO FOR**
+
+#include <stdio.h>
+int main (){
+    int x, y, i;
+    float suma;
+
+    printf ("Introduce de cuantos numeros quieres calcular la media: ");
+    scanf ("%i",&x);
+
+    i = 0; //inicializamos el contador
+    while (i < x) {  //Mientras i sea menor que x ((El contador solicitado))se ejecutara el programa
+        printf("Introduce el %i numero:",i+1);//agregamos la variable de i para que este proceso se repita las veces solicitadas por x
+        scanf("%i",&y);//los datos recogidos se almacenan en y
+        suma += y;// proceso en el cual se suman los valores recopilados
+        i++;
+}
+suma = suma / x; //el valor de suma va a ser los datos recopilados de suma / x
+printf("El resultado de la media es: %f. \n", suma);
+    return 0;
+    }
+
+
+**BUCLE DO WHILE**
+
+El do while se ejecuta al menos una vez hasta que se cumpla la condicion establecida para parar.
+
+#include <stdio.h>
+int main (){
+    int i = 10;
+
+    do{
+printf("Esto se ejecuta 1 vez al menos");
+  i++;
+
+    }while(i < 15);
+  
+
+    return 0;
+    }
+
+
+
+    **ALGORITMO CON CHAR**
+
+    #include <stdio.h>
+#include <stdlib.h>
+int main (){
+    char c;
+
+    do{
+printf("Introduce una letra: \n");
+getchar();// con esta funcion evitamos que nuestro print se repita varias veces
+ scanf ("%c",&c);
+
+    }while(c != 's');
+  
+
+    return 0;
+    }
+
+
+<img src="/All_C/resultado10.jpeg">
+
