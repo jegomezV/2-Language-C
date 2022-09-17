@@ -171,3 +171,9 @@ int main (){
 }
 
 <img src="/All_C/potenia.jpeg">
+
+ **METODO BURBUJA**
+ Es un algoritmo diseñado para crear un espacio de memoria el cual albergue un valor y este no sea alterado por el proceso de la operacion.
+ En este proceso veremos que tenemos un algoritmo para  darle el valor de x a y y viceversa, al ejecutar este algoritmo se mezclaran los r3esultados de manera erronea:
+
+ <img src="/All_C/burbuja.jpeg">
