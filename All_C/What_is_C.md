@@ -180,3 +180,6 @@ int main (){
 
  Nos refleja este resultado:
   <img src="/All_C/resultado.jpeg">
+
+  Para realizar correctamente este proceso debemos realizar este algoritmo con una variable auxiliar:
+  
