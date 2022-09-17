@@ -1,20 +1,15 @@
 #include <stdio.h>
 int main (){
-    int x, y, i; //la i es para definir las iteraciones del For
+    int i;
+    float suma; //Se declara de tipo flotante ya que el numero va a sobre pasar la cantidad de bits permitidos por el int.
+    suma = 0;
     
-        printf("Introduzca un numero:\n");
-            scanf("%i",&x);
-
-        printf("Introduzca un numero mayor que el anterior:\n");
-            scanf("%i",&y);
-
-    i = x + 1;
-    while(i < y){ 
-
-    printf("%i,",i);
-
-    i++;
-    
+    //En el buble for primero realizamos la inicializacion, 
+    for(i = 2 ; i <= 2000 ; i += 2){
+        suma += i;
     }
- }
- 
+    
+    printf ("El resultado de la suma es: %i.\n",suma);
+    
+    return 0;
+    }

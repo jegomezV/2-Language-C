@@ -415,6 +415,7 @@ Es la funcion que repite un numero de veces una parte del codigo. un numero de v
 **-Hay 3 tipos de bucles:**
 
 *for - Para: Hace recorridos en diferentes operaciones de acuerdo a una cantidad de iteraciones especificadas.
+((El bucle consta de 3 partes: 1. inicializar el contador. 2.se establece la condicion.))
 
 *while - Mientras: 
 
@@ -470,3 +471,25 @@ int main (){
 
 
  <img src="/All_C/resultado8.jpeg">
+
+ **ALGORITMO CICLO FOR**
+
+
+ #include <stdio.h>
+int main (){
+    int i;
+    float suma; //Se declara de tipo flotante ya que el numero va a sobre pasar la cantidad de bits permitidos por el int.
+    suma = 0;
+    
+    //En el buble for primero realizamos la inicializacion, 
+    for(i = 2 ; i <= 2000 ; i += 2){
+        suma += i;
+    }
+    
+    printf ("El resultado de la suma es: %i.\n",suma);
+    
+    return 0;
+    }
+
+
+    <img src="/All_C/resultado9.jpeg">
