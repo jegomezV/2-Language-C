@@ -1,32 +1,19 @@
 #include <stdio.h>
 int main (){
-    int x,y,z,max,min;
+    int x;
     
-        printf("Introduzca el valor para x:\n");
+        printf("Introduzca un numero\n");
         scanf("%i",&x);
 
-        printf("Introduzca el valor para y:\n");
-        scanf("%i",&y);
+   if(x >= 1 && x <= 10){
+ 
+   printf ("El numero %i esta entre 1 y 10. \n",x);
 
-        printf("Introduzca el valor para z:\n");
-        scanf("%i",&z);
+}
+else {
+        printf ("El numero de %i NO esta entre 1 y 10. \n",x);
+}
 
-            if(x > y){
-                if (x > z){
-                    max = x;
-                    }
-                        else {
-                            max = z;
-                        }
-            }
-            else{
-                if(y > z)
-                max =y;
-                else{
-                    max = z;
-                }
-                }
-
-        printf ("El mayor de los tres numeros es: %i",max);
+        
         return 0;
 }
