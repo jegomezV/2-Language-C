@@ -560,3 +560,13 @@ getchar();// con esta funcion evitamos que nuestro print se repita varias veces
 
 <img src="/All_C/resultado10.jpeg">
 
+
+**CONDICIONALES ANIDADAS**
+
+<img src="/All_C/resultado11.jpeg">
+
+**BUCLES ANIDADOS**
+
+<img src="/All_C/resultado12.jpeg">
+
+
